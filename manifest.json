@@ -1,6 +1,6 @@
 {
-    "name": "inandex",
-    "short_name": "inandex",
+    "name": "InandEx",
+    "short_name": "InandEx",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
