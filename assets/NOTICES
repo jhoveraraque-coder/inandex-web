@@ -1852,8 +1852,17 @@ google_fonts
 image_picker_for_web
 image_picker_macos
 image_picker_platform_interface
+local_auth
+local_auth_android
+local_auth_darwin
+local_auth_platform_interface
+local_auth_windows
 path_provider_android
 path_provider_foundation
+shared_preferences
+shared_preferences_android
+shared_preferences_foundation
+shared_preferences_platform_interface
 
 Copyright 2013 The Flutter Authors
 
@@ -5507,6 +5516,9 @@ path_provider_linux
 path_provider_platform_interface
 path_provider_windows
 plugin_platform_interface
+shared_preferences_linux
+shared_preferences_web
+shared_preferences_windows
 xdg_directories
 
 Copyright 2013 The Flutter Authors. All rights reserved.
