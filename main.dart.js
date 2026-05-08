@@ -117712,11 +117712,11 @@ l=B.uA.gQg().d5(h)
 k=B.d.p(a,".pdf")?"application/pdf":"image/jpeg"
 h=A.fM("https://claude-proxy.inandex.workers.dev")
 g=t.N
-f=A.ab(["Content-Type","application/json","x-api-key",n.y,"anthropic-version","2023-06-01"],g,g)
+f=A.ab(["Content-Type","application/json"],g,g)
 e=t.K
 d=t.Mq
 s=8
-return A.q(A.bAI(h,B.dU.a5R(A.ab(["apiKey",n.y,"model","claude-opus-4-6","max_tokens",500,"messages",A.b([A.ab(["role","user","content",A.b([A.ab(["type","image","source",A.ab(["type","base64","media_type",k,"data",l],g,g)],g,e),A.ab(["type","text","text",'Analiza este soporte de pago o factura y extrae: 1) Valor total, 2) Fecha, 3) Concepto o descripcion, 4) Tipo de pago (efectivo/transferencia/datafono). Responde SOLO en formato JSON: {"valor": "", "fecha": "", "concepto": "", "tipo_pago": ""}. Si no puedes leer algun campo pon "No legible".'],g,g)],d)],g,e)],d)],g,e),null),f),$async$xz)
+return A.q(A.bAI(h,B.dU.a5R(A.ab(["apiKey",n.y,"model","claude-haiku-4-5-20251001","max_tokens",500,"messages",A.b([A.ab(["role","user","content",A.b([A.ab(["type","image","source",A.ab(["type","base64","media_type",k,"data",l],g,g)],g,e),A.ab(["type","text","text",'Analiza este soporte de pago o factura y extrae: 1) Valor total, 2) Fecha, 3) Concepto o descripcion, 4) Tipo de pago (efectivo/transferencia/datafono). Responde SOLO en formato JSON: {"valor": "", "fecha": "", "concepto": "", "tipo_pago": ""}. Si no puedes leer algun campo pon "No legible".'],g,g)],d)],g,e)],d)],g,e),null),f),$async$xz)
 case 8:j=a1
 if(j.b===200){h=j
 i=B.dU.PH(0,A.bza(A.bvE(h.e)).ea(0,h.w),null)
